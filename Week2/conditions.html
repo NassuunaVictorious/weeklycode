@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>Saudi Arabia</li>
+        <li>Croatia</li>
+    </ul>
+    <!-- <script>
+        let number = prompt("Enter a number:");
+        if(number > 0){
+            alert("This is a positive number.")
+        }else if(number==0){
+            alert(`${number} is 0`)
+        }else if(number < 0){
+            alert(`${number} is negative`)
+        }else {
+           alert(`${number} is not a number`) 
+        }
+    </script> -->
+     <script>
+        let listItems= document.querySelectorAll("li");
+        for(let nation=0; nation<listItems.length; nation++){
+            console.log(`index:${nation}`,listItems[nation]);
+        };
+        // let num = prompt("Enter a number:");
+        // switch(true){
+        //     case num > 0:
+        //     alert("This is a positive number.")
+        //     break;
+        // case num==0:
+        //     alert(`${num} is 0`)
+        //     break;
+        // case num < 0:
+        //     alert(`${num} is negative`)
+        //     break;
+        // default:
+        //    alert(`${num} is not a number`) 
+        // }
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .between {
+            transition: transform 0.1s ease;
+           
+        }
+         .between :active{
+                transform:scale(1.2);
+            }
+        .heart {
+            size: 20px;
+            color:white;
+        }
+        .liked {
+            color:rgb(0, 255, 8);
+        }
+    </style>
+</head>
+<body>
+    <button id="likeBtn" class="between">
+        <span class="heart">🩷</span>
+        <span id="likeCount">0</span></button>
+        <script src="domAndEvents.js"></script>
+</body>
+</html>
